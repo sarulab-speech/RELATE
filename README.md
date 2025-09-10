@@ -31,6 +31,20 @@ This dataset consists of the following contents:
 This table shows the statistics of RELATE dataset.
 ![statistics](images/stats_RELATE.png)
 
+
+## Directory structure
+
+The directory structure of this dataset is as follows:
+
+	RELATE
+	├── listener_attributes
+	│   ├── REL.csv
+	│   └── IS_and_OS.csv 
+	└── scores
+		├── REL.csv
+		├── IS.csv 
+		└── OS.csv
+
 ## File format
 
 - [REL, IS, OS].csv: There are 8 columns in the each csv file.
@@ -47,19 +61,11 @@ This table shows the statistics of RELATE dataset.
 	- listener_id: The file name of audio.
 	- question[1, 2, ..., 12]: The answer of the question in questionnaire. The answes are quantified, with options assigned a numerical value starting from 1 for the leftmost choice and increasing sequentially.
 
-## Directory structure
 
-The directory structure of this dataset is as follows:
+## Download wave files
+You can download wave files in ~~~.
 
-	RELATE
-	├── listeners
-	│   ├── REL.csv
-	│   ├── IS.csv 
-	│   └── OS.csv
-	└── scores
-		├── REL.csv
-		├── IS.csv 
-		└── OS.csv
+
 
 ## Citation
 
