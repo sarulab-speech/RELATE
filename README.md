@@ -46,6 +46,15 @@ You can obtain the dataset immediately via an automated reply.
 | Audio duration [s] | 28,806 | 26,129 | 26,654 | 23,476 | 12,880 | 11901 |
 | Listeners | 1,085 | 873 | 864 | 635 | 714 | 525|
 
+
+| | REL | | IS | | OS | |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+| | Train | Test | Train | Test | Train | Test |
+| 評価件数 | 9,963 | 7,797 | 7,641 | 5,865 | 4,017 | 2,943 |
+| 説明文・環境音ペア | 2,862 | 2,598 | 2,649 | 2,334 | 1,281 | 1,185 |
+| 音の長さ [s] | 28,806 | 26,129 | 26,654 | 23,476 | 12,880 | 11,901 |
+| 聴取者数 | 1,085 | 873 | 864 | 635 | 714 | 525 |
+
 ## File format
 
 - [train,validation].csv: There are 4 columns in the each csv file.
