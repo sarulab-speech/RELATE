@@ -6,7 +6,7 @@ This dataset consists of the following contents:
 
 - Audio–text pairs
 
-	This dataset includes a number of audio-text pairs shown in the table below. The audios consist of both natural and synthetic types.
+	This dataset includes a number of audio-text pairs shown in the table in Statistics section below. The audios consist of both natural and synthetic types.
 	Each text is written English.
 	All audio sample was converted to mono 16-bit 16 kHz audio.
 
