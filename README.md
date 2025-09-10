@@ -13,17 +13,16 @@ This dataset consists of the following contents:
 - 11-point scores between audio and text by each listener
 
 	This dataset includes three types of subjective evaluation scores for semantic alignment between audio and text.
+	- REL score: The overall relevance of the text and audio.
+ 	- Inclusion of sound event (IS) score: The extent to which the sound events described in the text are included in the audio.
+  	- Order of sound event (OS) score: The degree of matching between the time series of sound events described in the text and the audio.
 	The semantic-alignment score is on a scale of eleven from 0 (does not match at all.) to 10 (matched exactly).
 	Each audio–text pair is evaluated by four listeners on average, who are native English speakers.
-- - 
 
-- Average-semantic-alignment scores
-	
-	This dataset includes average-semantic aligment scores of each audio–text pair.
-
-- Listener ID
-
-	This dataset includes listener IDs who scored the semantic-alignment score between audio and text.
+- Listener attributes
+	we gathered age, gender, nationality, birthplace, residence, and experience of audio evaluation for listener attributes.
+	The table below shows the questions and options.
+	![listener_attributes](images/listener_attributes.png)
 
 
 ## Statistics
