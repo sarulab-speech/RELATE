@@ -47,6 +47,10 @@ The directory structure of this dataset is as follows:
 
 ## File format
 
+- [REL, IS_and_OS].csv: There are 13 columns in the each csv file.
+	- listener_id: The file name of audio.
+	- question[1, 2, ..., 12]: The answer of the question in questionnaire. The answes are quantified, with options assigned a numerical value starting from 1 for the leftmost choice and increasing sequentially.
+
 - [REL, IS, OS].csv: There are 8 columns in the each csv file.
 	- wavname: The file name of audio.
 	- text: The text's corresponding audio.
@@ -57,9 +61,6 @@ The directory structure of this dataset is as follows:
     - in RELATE dataset: Whether the pair belongs to the train set, validation set or test set in RELATE dataset.
     - in AudioCaps: Whether the pair belongs to the train set or test set in AudioCaps.
 
-- [REL, IS_and_OS].csv: There are 13 columns in the each csv file.
-	- listener_id: The file name of audio.
-	- question[1, 2, ..., 12]: The answer of the question in questionnaire. The answes are quantified, with options assigned a numerical value starting from 1 for the leftmost choice and increasing sequentially.
 
 
 ## Download wave files
