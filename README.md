@@ -39,7 +39,7 @@ This table shows the statistics of RELATE dataset.
 	- score: The evaluation score.
 	- listener_id: The listener ID who scored the sematic-alignment scores.
     - audio type: Shows whether the audio is natural or synthetic. If synthetic, contains the name of synthetic model.
-    - anchor label: 
+    - anchor label: Whether this is an anchor pair (irrelevant audio–text pair for screening) or not.
     - in RELATE dataset: Whether the pair belongs to the train set, validation set or test set in RELATE dataset.
     - in AudioCaps: Whether the pair belongs to the train set or test set in AudioCaps.
 
@@ -51,7 +51,7 @@ This table shows the statistics of RELATE dataset.
 
 The directory structure of this dataset is as follows:
 
-	XACLE_dataset
+	RELATE
 	├── listeners
 	│   ├── REL.csv
 	│   ├── IS.csv 
