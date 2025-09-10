@@ -38,7 +38,7 @@ You can obtain the dataset immediately via an automated reply.
     \wcline{1-7}
 
 ## Statistics
-![statistics](images/stats.png)
+![statistics](images/stats_RELATE.png)
 |  REL | IS | OS|
 |  | Train | Test | Train | Test | Train | Test |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: |
