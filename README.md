@@ -16,6 +16,7 @@ This dataset consists of the following contents:
 	- REL score: The overall relevance of the text and audio.
  	- Inclusion of sound event (IS) score: The extent to which the sound events described in the text are included in the audio.
   	- Order of sound event (OS) score: The degree of matching between the time series of sound events described in the text and the audio.
+
 	The semantic-alignment score is on a scale of eleven from 0 (does not match at all.) to 10 (matched exactly).
 	Each audio–text pair is evaluated by four listeners on average, who are native English speakers.
 
