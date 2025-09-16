@@ -94,7 +94,7 @@ The directory structure of this dataset is as follows:
 
 
 ## Download wave files
-You can download wave files from [here](http://sarulab.sakura.ne.jp/kanamori/RELATE_open_dataset/RELATE_open_dataset.zip) 
+You can download wave files from [here](http://sarulab.sakura.ne.jp/kanamori/RELATE_open_dataset/RELATE_wave.zip)
 
 ## Screening of data
 You can conduct screening of listeners according to the method in our paper.
