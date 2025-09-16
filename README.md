@@ -103,6 +103,7 @@ You can conduct screening of listeners according to the method in our paper.
 import pandas as pd
 df = pd.read_csv("scores/REL.csv")
 df = df[df["in RELATE dataset"]!="excluded"]
+http://sarulab.sakura.ne.jp/kanamori/RELATE_open_dataset/RELATE_wave.zip
 ```
 
 ## Citation
