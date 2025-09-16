@@ -45,6 +45,28 @@ The directory structure of this dataset is as follows:
 		├── IS.csv 
 		└── OS.csv
 
+  	RELATE_wave
+	├── audiocaps
+	│   ├── test
+ 	│	│	├── 10176.wav
+	│	│	├──   .
+    │   │   ├──   .
+    │	│   └──   .
+	│   └── train
+	├── audioldm
+ 	│	├── test
+    │   └── train
+ 	├── audioldm2
+   	│	├── test
+    │   └── train
+   	├── tango
+	│	├── test
+    │   └── train
+	└── tango2
+  	 	├── test
+        └── train
+
+
 ## File format
 
 - listener_attributes/[REL, IS_and_OS].csv: There are 13 columns in the each csv file.
