@@ -61,7 +61,7 @@ The directory structure of this dataset is as follows:
     - in RELATE dataset: Whether the pair belongs to the train set, validation set or test set in RELATE dataset. "Excluded" if that is an anchor pair or screened.
     - in AudioCaps: Whether the pair belongs to the train set or test set in AudioCaps. "None" if that is an anchor pair.
  
-  - scores/[IS, OS].csv: There are 7 columns in the each csv file.
+- scores/[IS, OS].csv: There are 7 columns in the each csv file.
 	- wavname: The file name of audio.
 	- text: The text's corresponding audio.
 	- score: The evaluation score. The score range is 0 to 10.
