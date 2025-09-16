@@ -45,6 +45,28 @@ The directory structure of this dataset is as follows:
 		├── IS.csv 
 		└── OS.csv
 
+  	RELATE_wave
+	├── audiocaps
+	│   ├── test
+ 	│	│	├── 10176.wav
+	│	│	├──   .
+    │   │   ├──   .
+    │	│   └──   .
+	│   └── train
+	├── audioldm
+ 	│	├── test
+    │   └── train
+ 	├── audioldm2
+   	│	├── test
+    │   └── train
+   	├── tango
+	│	├── test
+    │   └── train
+	└── tango2
+  	 	├── test
+        └── train
+
+
 ## File format
 
 - listener_attributes/[REL, IS_and_OS].csv: There are 13 columns in the each csv file.
@@ -72,13 +94,15 @@ The directory structure of this dataset is as follows:
 
 
 ## Download wave files
-You can download wave files in ~~~.
+You can download wave files from [here](http://sarulab.sakura.ne.jp/kanamori/RELATE_open_dataset/RELATE_open_dataset.zip) 
 
 ## Screening of data
 You can conduct screening of listeners according to the method in our paper.
 
-```screenign.ipynb
-puts 'The best way to log and share programmers knowledge.'
+```
+import pandas as pd
+df = pd.read_csv("scores/REL.csv")
+df = df[df["in RELATE dataset"]!="excluded"]
 ```
 
 ## Citation
