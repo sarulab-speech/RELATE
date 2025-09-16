@@ -66,7 +66,12 @@ The directory structure of this dataset is as follows:
 ## Download wave files
 You can download wave files in ~~~.
 
+## Screening of data
+You can conduct screening of listeners according to the method in our paper.
 
+```screenign.ipynb
+puts 'The best way to log and share programmers knowledge.'
+```
 
 ## Citation
 
