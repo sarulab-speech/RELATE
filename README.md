@@ -77,8 +77,10 @@ You can download wave files from [here](http://sarulab.sakura.ne.jp/kanamori/REL
 ## Screening of data
 You can conduct screening of listeners according to the method in our paper.
 
-```screenign.ipynb
-puts 'The best way to log and share programmers knowledge.'
+```
+import pandas as pd
+df = pd.read_csv("scores/REL.csv")
+df = df[df["in RELATE dataset"]!="excluded"]
 ```
 
 ## Citation
