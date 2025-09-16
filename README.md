@@ -51,7 +51,7 @@ The directory structure of this dataset is as follows:
 	- listener_id: The file name of audio.
 	- question[1, 2, ..., 12]: The answer of the question in questionnaire. The answes are quantified, with options assigned a numerical value starting from 1 for the leftmost choice and increasing sequentially.
 
-- scores/[REL, IS, OS].csv: There are 8 columns in the each csv file.
+- scores/REL.csv: There are 8 columns in the each csv file.
 	- wavname: The file name of audio.
 	- text: The text's corresponding audio.
 	- score: The evaluation score. The score range is 0 to 10.
@@ -60,7 +60,15 @@ The directory structure of this dataset is as follows:
     - anchor label: Whether this is an anchor pair (irrelevant audio–text pair for screening) or not.
     - in RELATE dataset: Whether the pair belongs to the train set, validation set or test set in RELATE dataset. "Excluded" if that is an anchor pair or screened.
     - in AudioCaps: Whether the pair belongs to the train set or test set in AudioCaps. "None" if that is an anchor pair.
-
+ 
+  - scores/[IS, OS].csv: There are 7 columns in the each csv file.
+	- wavname: The file name of audio.
+	- text: The text's corresponding audio.
+	- score: The evaluation score. The score range is 0 to 10.
+	- listener_id: The listener ID who scored the sematic-alignment scores.
+    - audio type: Shows whether the audio is natural or synthetic. If synthetic, contains the name of synthetic model.
+    - anchor label: Whether this is an anchor pair (irrelevant audio–text pair for screening) or not.
+    - in AudioCaps: Whether the pair belongs to the train set or test set in AudioCaps. "None" if that is an anchor pair.
 
 
 ## Download wave files
