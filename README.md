@@ -134,6 +134,42 @@ This table shows the statistics of RELATE dataset.
   </tbody>
 </table>
 
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th>REL</th>
+      <th></th>
+      <th>IS</th>
+      <th></th>
+      <th>OS</th>
+      <th></th>
+    </tr>
+    <tr>
+      <th></th>
+      <th></th>
+      <th align="right">Train</th>
+      <th align="right">Test</th>
+      <th align="right">Train</th>
+      <th align="right">Test</th>
+      <th align="right">Train</th>
+      <th align="right">Test</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Evaluations</td>
+      <td></td>
+      <td align="right">9,963</td>
+      <td align="right">7,797</td>
+      <td align="right">7,641</td>
+      <td align="right">5,865</td>
+      <td align="right">4,017</td>
+      <td align="right">2,943</td>
+    </tr>
+  </tbody>
+</table>
+
 ## Directory structure
 
 The directory structure of this dataset is as follows:
