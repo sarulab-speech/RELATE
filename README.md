@@ -26,6 +26,21 @@ This dataset consists of the following contents:
 	The table below shows the questions and options.
 	![listener_attributes](images/listener_attributes.png)
 
+| ID | Question | Options |
+|---|---|---|
+| Q01 | Age | $\leq$20, 21-30, ..., 61$\leq$ |
+| Q02 | Gender | M, F, NBi |
+| Q03 | How many times have you participated in ratings of audio samples? | 0, 1, ..., 5$\leq$ |
+| Q04 | When did you last participate in other ratings of audio samples? | Never, $\leq$1 month, ... |
+| Q05 | On average, how many times have you heard an audio repeatedly? | 1, 2, ..., 5$\leq$ |
+| Q06 | What type of audio device did you use? | Headphone, Earphone, Others |
+| Q07 | Was the surrounding environment quiet during the ratings of audio samples? | Quiet, ..., Noisy |
+| Q08 | How difficult were the evaluations? | Easy, ..., Difficult |
+| Q09 | Do/did you work in the field of speech or audio technology? | Yes, No |
+| Q10 | Nationality | EU, NA, ... |
+| Q11 | Mother country | EU, NA, ... |
+| Q12 | Place of residence | EU, NA, ... |
+
 
 ## Statistics
 This table shows the statistics of RELATE dataset.
