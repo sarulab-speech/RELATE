@@ -45,17 +45,10 @@ This dataset consists of the following contents:
 ## Statistics
 This table shows the statistics of RELATE dataset.
 ![statistics](images/stats_RELATE.png)
-| | **REL** | | **IS** | | **OS** | |
-|---|---|---|---|---|---|---|
-| | Train | Test | Train | Test | Train | Test |
-| Evaluations | 9,963 | 7,797 | 7,641 | 5,865 | 4,017 | 2,943 |
-| Audio-text pairs | 2,862 | 2,598 | 2,649 | 2,334 | 1,281 | 1,185 |
-| Audio duration [s] | 28,806 | 26,129 | 26,654 | 23,476 | 12,880 | 11,901 |
-| Listeners | 1,085 | 873 | 864 | 635 | 714 | 525 |
 
 <style>
   table {
-    border-collapse: collapse; /* セルの境界線を重ねて1本にする */
+    border-collapse: collapse;
     width: 100%;
   }
   th, td {
@@ -63,12 +56,9 @@ This table shows the statistics of RELATE dataset.
     text-align: center;
     border: 1px solid #ddd;
   }
-  /* ここからカスタマイズ部分 */
-  /* 見出し行の下に太い線を追加 */
   thead tr:first-child th {
     border-bottom: 3px solid black;
   }
-  /* REL, IS, OSの列の間に太い線を追加 */
   th:nth-child(3), td:nth-child(3),
   th:nth-child(5), td:nth-child(5) {
     border-right: 3px solid black;
@@ -130,42 +120,6 @@ This table shows the statistics of RELATE dataset.
       <td align="right">635</td>
       <td align="right">714</td>
       <td align="right">525</td>
-    </tr>
-  </tbody>
-</table>
-
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th>REL</th>
-      <th></th>
-      <th>IS</th>
-      <th></th>
-      <th>OS</th>
-      <th></th>
-    </tr>
-    <tr>
-      <th></th>
-      <th></th>
-      <th align="right">Train</th>
-      <th align="right">Test</th>
-      <th align="right">Train</th>
-      <th align="right">Test</th>
-      <th align="right">Train</th>
-      <th align="right">Test</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Evaluations</td>
-      <td></td>
-      <td align="right">9,963</td>
-      <td align="right">7,797</td>
-      <td align="right">7,641</td>
-      <td align="right">5,865</td>
-      <td align="right">4,017</td>
-      <td align="right">2,943</td>
     </tr>
   </tbody>
 </table>
