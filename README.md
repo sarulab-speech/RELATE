@@ -45,7 +45,13 @@ This dataset consists of the following contents:
 ## Statistics
 This table shows the statistics of RELATE dataset.
 ![statistics](images/stats_RELATE.png)
-
+| | **REL** | | **IS** | | **OS** | |
+|---|---|---|---|---|---|---|
+| | Train | Test | Train | Test | Train | Test |
+| Evaluations | 9,963 | 7,797 | 7,641 | 5,865 | 4,017 | 2,943 |
+| Audio-text pairs | 2,862 | 2,598 | 2,649 | 2,334 | 1,281 | 1,185 |
+| Audio duration [s] | 28,806 | 26,129 | 26,654 | 23,476 | 12,880 | 11,901 |
+| Listeners | 1,085 | 873 | 864 | 635 | 714 | 525 |
 
 ## Directory structure
 
