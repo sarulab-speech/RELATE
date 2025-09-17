@@ -28,8 +28,8 @@ This dataset consists of the following contents:
 
 | ID | Question | Options |
 |---|---|---|
-| Q01 | Age | 0-20, 21-30, 31-40, 41-51, 51-60, 61- |
-| Q02 | Gender | Male, Female, Non-binary |
+| Q1 | Age | 0-20, 21-30, 31-40, 41-51, 51-60, 61- |
+| Q2 | Gender | Male, Female, Non-binary |
 | Q3 | What is your nationality? | Choose from pulldown |
 | Q4 | Where are you from? | Choose from pulldown |
 | Q5 | In which country do you live? | Choose from pulldown |
