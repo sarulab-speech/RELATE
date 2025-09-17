@@ -79,9 +79,9 @@ This table shows the statistics of RELATE dataset.
   <thead>
     <tr>
       <th colspan="2"></th>
-      <th colspan="2">**REL**</th>
-      <th colspan="2">**IS**</th>
-      <th colspan="2">**OS**</th>
+      <th colspan="2">REL**</th>
+      <th colspan="2">IS</th>
+      <th colspan="2">OS</th>
     </tr>
     <tr>
       <th></th>
