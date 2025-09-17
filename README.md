@@ -29,17 +29,17 @@ This dataset consists of the following contents:
 | ID | Question | Options |
 |---|---|---|
 | Q01 | Age | 0-20, 21-30, 31-40, 41-51, 51-60, 61- |
-| Q02 | Gender | male, female, non-binary |
-| Q3 | What is your nationality? | EU, NA, ... |
-| Q4 | Where are you from? | EU, NA, ... |
-| Q5 | In which country do you live? | EU, NA, ... |
+| Q02 | Gender | Male, Female, Non-binary |
+| Q3 | What is your nationality? | Choose from pulldown |
+| Q4 | Where are you from? | Choose from pulldown |
+| Q5 | In which country do you live? | Choose from pulldown |
 | Q6 | How many times have you participated in ratings of audio samples? | 0, 1, 2, 3, 4, 5- |
-| Q04 | When did you last participate in other ratings of audio samples? | never, 0-1 month ago, 1-2 months ago, 2-6 months ago, 7-12 months ago, 1-5 years ago, longer ago |
-| Q05 | On average, how many times have you heard an audio repeatedly? | 1, 2, ..., 5$\leq$ |
-| Q06 | What type of audio device did you use? | Headphone, Earphone, Others |
-| Q07 | Was the surrounding environment quiet during the ratings of audio samples? | Quiet, ..., Noisy |
-| Q08 | How difficult were the evaluations? | Easy, ..., Difficult |
-| Q09 | Do/did you work in the field of speech or audio technology? | Yes, No |
+| Q7 | When did you last participate in other ratings of audio samples? | Never, 0-1 month ago, 1-2 months ago, 2-6 months ago, 7-12 months ago, 1-5 years ago, Longer ago |
+| Q8 | On average, how many times have you heard an audio repeatedly? | 1, 2, 3, 4, 5- |
+| Q9 | What type of audio device did you use? | Headphone, Earphone, Others |
+| Q10 | Was the surrounding environment quiet during the ratings of audio samples? | Quiet the whole time, Quiet most of the time, Sometimes quiet, Noisy most of the time, Always noisy |
+| Q11 | How difficult were the evaluations? | Easy, Not so difficult, Not so easy, Difficult |
+| Q12 | Do/did you work in the field of speech or audio technology? | Yes, No |
 
 
 ## Statistics
