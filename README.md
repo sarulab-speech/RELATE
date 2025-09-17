@@ -24,7 +24,6 @@ This dataset consists of the following contents:
   
   	For listener attributes, we gathered information such as age, gender, nationality, birthplace, residence, and experience in audio evaluation.
 	The table below shows the questions and options.
-	![listener_attributes](images/listener_attributes.png)
 
 | ID | Question | Options |
 |---|---|---|
@@ -37,33 +36,13 @@ This dataset consists of the following contents:
 | Q7 | When did you last participate in other ratings of audio samples? | Never, 0-1 month ago, 1-2 months ago, 2-6 months ago, <br>7-12 months ago, 1-5 years ago, Longer ago |
 | Q8 | On average, how many times have you heard an audio repeatedly? | 1, 2, 3, 4, 5- |
 | Q9 | What type of audio device did you use? | Headphone, Earphone, Others |
-| Q10 | Was the surrounding environment quiet during the ratings of audio samples? | Quiet&nbsp;the&nbsp;whole&nbsp;time, Quiet&nbsp;most&nbsp;of&nbsp;the&nbsp;time, Sometimes&nbsp;quiet, Noisy&nbsp;most&nbsp;of&nbsp;the&nbsp;time, Always&nbsp;noisy |
+| Q10 | Was the surrounding environment quiet during the ratings of audio samples? | Quiet the whole time, Quiet most of the time, Sometimes quiet, <br>Noisy most of the time, Always noisy |
 | Q11 | How difficult were the evaluations? | Easy, Not so difficult, Not so easy, Difficult |
 | Q12 | Do/did you work in the field of speech or audio technology? | Yes, No |
 
 
 ## Statistics
 This table shows the statistics of RELATE dataset.
-![statistics](images/stats_RELATE.png)
-
-<style>
-  table {
-    border-collapse: collapse;
-    width: 100%;
-  }
-  th, td {
-    padding: 8px;
-    text-align: center;
-    border: 1px solid #ddd;
-  }
-  thead tr:first-child th {
-    border-bottom: 3px solid black;
-  }
-  th:nth-child(3), td:nth-child(3),
-  th:nth-child(5), td:nth-child(5) {
-    border-right: 3px solid black;
-  }
-</style>
 
 <table>
   <thead>
