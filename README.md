@@ -79,7 +79,7 @@ This table shows the statistics of RELATE dataset.
   <thead>
     <tr>
       <th colspan="2"></th>
-      <th colspan="2">REL**</th>
+      <th colspan="2">REL</th>
       <th colspan="2">IS</th>
       <th colspan="2">OS</th>
     </tr>
@@ -97,39 +97,39 @@ This table shows the statistics of RELATE dataset.
   <tbody>
     <tr>
       <td colspan="2">Evaluations</td>
-      <td>9,963</td>
-      <td>7,797</td>
-      <td>7,641</td>
-      <td>5,865</td>
-      <td>4,017</td>
-      <td>2,943</td>
+      <td align="right">9,963</td>
+      <td align="right">7,797</td>
+      <td align="right">7,641</td>
+      <td align="right">5,865</td>
+      <td align="right">4,017</td>
+      <td align="right">2,943</td>
     </tr>
     <tr>
       <td colspan="2">Audio-text pairs</td>
-      <td>2,862</td>
-      <td>2,598</td>
-      <td>2,649</td>
-      <td>2,334</td>
-      <td>1,281</td>
-      <td>1,185</td>
+      <td align="right">2,862</td>
+      <td align="right">2,598</td>
+      <td align="right">2,649</td>
+      <td align="right">2,334</td>
+      <td align="right">1,281</td>
+      <td align="right">1,185</td>
     </tr>
     <tr>
       <td colspan="2">Audio duration [s]</td>
-      <td>28,806</td>
-      <td>26,129</td>
-      <td>26,654</td>
-      <td>23,476</td>
-      <td>12,880</td>
-      <td>11,901</td>
+      <td align="right">28,806</td>
+      <td align="right">26,129</td>
+      <td align="right">26,654</td>
+      <td align="right">23,476</td>
+      <td align="right">12,880</td>
+      <td align="right">11,901</td>
     </tr>
     <tr>
       <td colspan="2">Listeners</td>
-      <td>1,085</td>
-      <td>873</td>
-      <td>864</td>
-      <td>635</td>
-      <td>714</td>
-      <td>525</td>
+      <td align="right">1,085</td>
+      <td align="right">873</td>
+      <td align="right">864</td>
+      <td align="right">635</td>
+      <td align="right">714</td>
+      <td align="right">525</td>
     </tr>
   </tbody>
 </table>
