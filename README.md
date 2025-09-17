@@ -53,6 +53,55 @@ This table shows the statistics of RELATE dataset.
 | Audio duration [s] | 28,806 | 26,129 | 26,654 | 23,476 | 12,880 | 11,901 |
 | Listeners | 1,085 | 873 | 864 | 635 | 714 | 525 |
 
+<style>
+  /* 表の罫線全体を太くする */
+  table.custom-table, .custom-table th, .custom-table td {
+    border: 2px solid black;
+  }
+  /* 特定の列の左の線を太くする */
+  .custom-table th:nth-child(2), .custom-table td:nth-child(2) {
+    border-left: 2px solid black;
+  }
+  /* 最初の行の下の線を太くする */
+  .custom-table tr:first-child {
+    border-bottom: 2px solid black;
+  }
+</style>
+
+<table class="custom-table">
+  <thead>
+    <tr>
+      <th></th>
+      <th>**REL**</th>
+      <th></th>
+      <th>**IS**</th>
+      <th></th>
+      <th>**OS**</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td></td>
+      <td>Train</td>
+      <td>Test</td>
+      <td>Train</td>
+      <td>Test</td>
+      <td>Train</td>
+      <td>Test</td>
+    </tr>
+    <tr>
+      <td>Evaluations</td>
+      <td>9,963</td>
+      <td>7,797</td>
+      <td>7,641</td>
+      <td>5,865</td>
+      <td>4,017</td>
+      <td>2,943</td>
+    </tr>
+    </tbody>
+</table>
+
 ## Directory structure
 
 The directory structure of this dataset is as follows:
